@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula2</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/calculadora.css">
+    
+
+</head>
+
+<body>
+    <header>
+        <h1 class='title'>Aula 02</h1>
+        <h2 class="subtitle"> Exercício físico</h2>
+    </header>
+    <main>
+        <section class="bkcolor">
+            
+            <div class="img_principal">
+                <div class='row'>
+                    <div class="col60">
+                        <h2 class="title">
+                            Exercício Físico
+                        </h2>
+                        <p class="colored">
+                            Melhorando a saúde do seu corpo.
+                        </p>
+                        <a class="button bkred" href="#calculadora">
+                            Calcule seu IMC
+                        </a>
+                    </div>
+                </div>
+        </section>
+        <section id="sec01" class="center color">
+            <h2>Calcule seu IMC</h2>
+            <p class='description'>
+                Calcule seu IMC preenchedo os campos abaixo</p>
+            <div id='calculadora' class="calculadora">
+                <div class="input_area">
+                    <div>
+                        <label for="peso">Peso (KG)</label>
+                        <input name="peso" id="peso" type="number">
+                    </div>
+                    <div>
+                        <label for="altura">altura (M)</label>
+                        <input name="altura" id="altura" type="number"> 
+                    </div>
+
+
+                    
+                </div>  
+                    <p id="btn_result" class="button bkred" href="#Link">
+                    Calcular </p>
+                
+            </div>
+            <p id="resultado_txt">Resultado: </p>
+            <p id="resultado"> </p>
+
+
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

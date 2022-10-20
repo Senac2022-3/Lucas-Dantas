@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 04</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Quantidade de fraldas</h1>
+            <div class="row">   
+                <div class="col c33">
+                    <label for="fraldas">Fraldas: </label>
+                    <input name="fraldas" id="fraldas" type="text">
+                </div>
+                <div class="col c33">
+                    <label for="maquinas">Maquinas: </label>
+                    <input name="maquinas" id="maquinas" type="text">
+                </div>
+                <div class="col c33">
+                    <label for="desejadas">Produção desejada: </label>
+                    <input name="desejadas" id="desejadas" type="text">
+            </div>
+            <div class="row">
+                <div class="col c100">
+                    <h2>Resultados</h2>
+                </div>
+                <div class="col c50">
+                    <label for="novasMaquinas">Serão necessárias: </label>
+                    <input name="novasMaquinas" id="novasMaquinas" type="text" readonly > 
+                </div>
+            </div>
+            <a class="button" id="calcular" href="#">Calcular</a>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 03</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Salário e descontos</h1>
+            <p>Este programa exibe seu salário líquido, bruto, vale transporte
+                e plano de saúde</p>
+            <div class="row">   
+                <div class="col c50">
+                    <label for="nome">Nome: </label>
+                    <input name="nome" id="nome" type="text">
+                </div>
+                <div class="col c50">
+                    <label for="salario">Salário Bruto: </label>
+                    <input name="salario" id="salario" type="text">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col c100">
+                    <h2>Valores e Descontos</h2>
+                    <p>Caro sr. <span id="user">nome</span></p>
+                </div>
+                <div class="col c33">
+                    <label for="salarioL">Salário Liquido </label>
+                    <input name="salarioL" id="salarioL" type="text" readonly>
+                </div>
+                <div class="col c33">
+                    <label for="vale"> Vale Transporte</label>
+                    <input name="vale" id="vale" type="text" readonly>
+                </div>
+                <div class="col c33">
+                    <label for="plano">Plano de saúde </label>
+                    <input name="plano" id="plano" type="text" readonly>
+                </div>
+            </div>
+            <a class="button" id="calcular" href="#">Calcular</a>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>
